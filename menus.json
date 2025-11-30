@@ -1,15 +1,19 @@
 {
-  "today": ["Mercimek Çorbası", "Tavuk Sote", "Pilav", "Ayran"],
-  "week": {
-    "Pazartesi": ["Çorba", "Kuru Fasulye", "Pilav"],
-    "Salı": ["Ezogelin", "Köfte", "Makarna"],
-    "Çarşamba": ["Tarhana", "Tavuk Şiş", "Bulgur"],
-    "Perşembe": ["Mercimek", "Balık", "Salata"],
-    "Cuma": ["Domates Çorbası", "Et Sote", "Pirinç Pilavı"]
-  },
-  "month": {
-    "1": ["Pizza", "Salata"],
-    "2": ["İskender", "Ayran"],
-    "3": ["Hamburger", "Patates"]
+  "kitchens": {
+    "1": {
+      "today": [
+        { "name": "Mercimek Çorbası", "allergens": ["Gluten"], "group": "Çorba" },
+        { "name": "Tavuk Sote", "allergens": ["None"], "group": "Ana Yemek" },
+        { "name": "Pirinç Pilavı", "allergens": ["None"], "group": "Yan Yemek" }
+      ],
+      "week": [
+        { "day": "Pazartesi", "menu": ["Köfte", "Pilav", "Çorba"] },
+        { "day": "Salı", "menu": ["Tavuk", "Makarna", "Salata"] }
+      ],
+      "month": [
+        { "date": "2025-02-01", "menu": ["Kuru Fasulye", "Pilav"] },
+        { "date": "2025-02-02", "menu": ["Izgara Tavuk", "Salata"] }
+      ]
+    }
   }
 }
