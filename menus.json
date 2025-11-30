@@ -1,19 +1,39 @@
 {
   "kitchens": {
     "1": {
-      "today": [
-        { "name": "Mercimek Çorbası", "allergens": ["Gluten"], "group": "Çorba" },
-        { "name": "Tavuk Sote", "allergens": ["None"], "group": "Ana Yemek" },
-        { "name": "Pirinç Pilavı", "allergens": ["None"], "group": "Yan Yemek" }
-      ],
-      "week": [
-        { "day": "Pazartesi", "menu": ["Köfte", "Pilav", "Çorba"] },
-        { "day": "Salı", "menu": ["Tavuk", "Makarna", "Salata"] }
-      ],
-      "month": [
-        { "date": "2025-02-01", "menu": ["Kuru Fasulye", "Pilav"] },
-        { "date": "2025-02-02", "menu": ["Izgara Tavuk", "Salata"] }
-      ]
+      "name": "Merkez Mutfak",
+      "monthly": {
+        "2025-11": {
+          "2025-11-29": {
+            "main": "Tavuk Sote",
+            "side": "Pirinç Pilavı",
+            "soup": "Mercimek",
+            "salad": "Mevsim Salata",
+            "dessert": "Revani"
+          },
+          "2025-11-30": {
+            "main": "Izgara Balık",
+            "side": "Bulgur",
+            "soup": "Domates Çorbası",
+            "salad": "Çoban Salata",
+            "dessert": "Sütlaç"
+          }
+        }
+      }
+    },
+    "2": {
+      "name": "Şube Mutfak",
+      "monthly": {
+        "2025-11": {
+          "2025-11-29": {
+            "main": "Köfte",
+            "side": "Patates",
+            "soup": "Ezogelin",
+            "salad": "Mevsim Salata",
+            "dessert": "Kabak Tatlısı"
+          }
+        }
+      }
     }
   }
 }
