@@ -1,5 +1,39 @@
 {
-    "today": ["Mercimek Çorbası", "Tavuk Sote", "Pilav", "Salata"],
-    "week": ["Pazartesi: Köfte", "Salı: Makarna", "Çarşamba: Tavuk", "Perşembe: Balık", "Cuma: Izgara"],
-    "month": ["1 Ocak Menü", "2 Ocak Menü", "3 Ocak Menü"]
+  "kitchens": {
+    "1": {
+      "name": "Merkez Mutfak",
+      "monthly": {
+        "2025-11": {
+          "2025-11-29": {
+            "main": "Tavuk Sote",
+            "side": "Pirinç Pilavı",
+            "soup": "Mercimek",
+            "salad": "Mevsim Salata",
+            "dessert": "Revani"
+          },
+          "2025-11-30": {
+            "main": "Izgara Balık",
+            "side": "Bulgur",
+            "soup": "Domates Çorbası",
+            "salad": "Çoban Salata",
+            "dessert": "Sütlaç"
+          }
+        }
+      }
+    },
+    "2": {
+      "name": "Şube Mutfak",
+      "monthly": {
+        "2025-11": {
+          "2025-11-29": {
+            "main": "Köfte",
+            "side": "Patates",
+            "soup": "Ezogelin",
+            "salad": "Mevsim Salata",
+            "dessert": "Kabak Tatlısı"
+          }
+        }
+      }
+    }
+  }
 }
