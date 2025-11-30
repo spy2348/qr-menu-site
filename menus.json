@@ -1,13 +1,19 @@
 {
   "kitchens": {
     "1": {
-      "today": {
-        "soup": "Mercimek Çorbası",
-        "main": "Tavuk Sote",
-        "side": "Pirinç Pilavı",
-        "salad": "Mevsim Salata",
-        "dessert": "Sütlaç"
-      }
+      "today": [
+        { "name": "Mercimek Çorbası", "allergens": ["Gluten"], "group": "Çorba" },
+        { "name": "Tavuk Sote", "allergens": ["None"], "group": "Ana Yemek" },
+        { "name": "Pirinç Pilavı", "allergens": ["None"], "group": "Yan Yemek" }
+      ],
+      "week": [
+        { "day": "Pazartesi", "menu": ["Köfte", "Pilav", "Çorba"] },
+        { "day": "Salı", "menu": ["Tavuk", "Makarna", "Salata"] }
+      ],
+      "month": [
+        { "date": "2025-02-01", "menu": ["Kuru Fasulye", "Pilav"] },
+        { "date": "2025-02-02", "menu": ["Izgara Tavuk", "Salata"] }
+      ]
     }
   }
 }
