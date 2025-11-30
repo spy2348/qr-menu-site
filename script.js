@@ -1,6 +1,6 @@
 // basit, tarayıcıda çalışan menü yükleyici
 async function fetchMenus() {
-  const r = await fetch('/menus.json');
+  const r = await fetch('menus.json');
   if (!r.ok) throw new Error('menus.json yüklenemedi');
   return r.json();
 }
