@@ -1,0 +1,13 @@
+{
+  "kitchens": {
+    "1": {
+      "today": {
+        "soup": "Mercimek Çorbası",
+        "main": "Tavuk Sote",
+        "side": "Pirinç Pilavı",
+        "salad": "Mevsim Salata",
+        "dessert": "Sütlaç"
+      }
+    }
+  }
+}
