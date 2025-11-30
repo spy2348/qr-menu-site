@@ -1,11 +1,7 @@
 // basit, tarayıcıda çalışan menü yükleyici
 async function fetchMenus() {
-  // Düzeltilen yol: 'data' klasörünün içindeki 'menus.json' dosyasını çeker.
-  const r = await fetch('data/menus.json'); 
-  
-  if (!r.ok) {
-    throw new Error(`menus.json yüklenemedi (${r.status} ${r.statusText})`);
-  }
+  const r = await fetch('/menus.json');
+  if (!r.ok) throw new Error('menus.json yüklenemedi');
   return r.json();
 }
 
@@ -15,7 +11,7 @@ function getQueryParam(name) {
 }
 
 function formatDate(d) {
-  // yyyy-mm-dd formatı
+  // yyyy-mm-dd
   const y = d.getFullYear();
   const m = String(d.getMonth()+1).padStart(2,'0');
   const dd = String(d.getDate()).padStart(2,'0');
@@ -63,7 +59,7 @@ function renderMonth(container, yearMonth, monthlyObj, kitchenName) {
 }
 
 function getMonday(d) {
-  // verilen tarihin Pazartesi gününü bulur
+  // given date object, return monday of that week (ISO)
   const day = d.getDay(); // 0 Sun - 6 Sat
   const diff = (day + 6) % 7; // days since Monday
   const monday = new Date(d);
@@ -84,8 +80,7 @@ function getMonday(d) {
       return;
     }
     const today = new Date();
-    // Yıl ve ay bilgisi: Örn: 2025-11
-    const yearMonth = `${today.getFullYear()}-${String(today.getMonth()+1).padStart(2,'0')}`; 
+    const yearMonth = `${today.getFullYear()}-${String(today.getMonth()+1).padStart(2,'0')}`;
     const monthly = kitchen.monthly[yearMonth] || {};
 
     if (view === 'today') {
@@ -99,7 +94,7 @@ function getMonday(d) {
       renderMonth(container, yearMonth, monthly, kitchen.name);
     }
 
-    // Başlık metnini güncelleme
+    // update title text if exists
     const title = document.getElementById('title');
     if (title) {
       title.innerText = view === 'today' ? 'Bugünün Menüsü' : view === 'week' ? 'Haftalık Menü' : 'Aylık Menü';
