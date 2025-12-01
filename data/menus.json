@@ -2,53 +2,36 @@
   "kitchens": {
     "1": {
       "name": "Merkez Mutfak (Proje A)",
-      "monthly": {
-        "2025-11": {
-          "2025-11-29": {
-            "main": "Tavuk Sote",
-            "side": "Pirinç Pilavı",
-            "soup": "Mercimek Çorbası",
-            "salad": "Mevsim Salata",
-            "dessert": "Revani",
-            "allergens": ["Gluten", "Süt"]
-          },
-          "2025-11-30": {
-            "main": "Kuru Fasulye",
-            "side": "Bulgur Pilavı",
-            "soup": "Ezogelin Çorbası",
-            "salad": "Gavurdağı",
-            "dessert": "Yoğurt",
-            "allergens": []
-          },
-          "2025-12-01": {
-            "main": "Izgara Köfte",
-            "side": "Patates Püresi",
-            "soup": "-",
-            "salad": "Yeşil Salata",
-            "dessert": "Sütlaç",
-            "allergens": ["Süt", "Yumurta"]
-          },
-          "2025-12-01": {
-            "main": "Izgara Köfte",
-            "side": "Patates Püresi",
-            "soup": "-",
-            "salad": "Yeşil Salata",
-            "dessert": "Sütlaç",
-            "allergens": ["Süt", "Yumurta"]
-            },
-   "2025-12-01": {
-            "main": "Izgara Köfte",
-            "side": "Patates Püresi",
-            "soup": "-",
-            "salad": "Yeşil Salata",
-            "dessert": "Sütlaç",
-            "allergens": ["Süt", "Yumurta"]
-          }
+      "menu": {
+        "2025-11-29": {
+          "main": "Tavuk Sote",
+          "side": "Pirinç Pilavı",
+          "soup": "Mercimek Çorbası",
+          "salad": "Mevsim Salata",
+          "dessert": "Revani",
+          "allergens": ["Gluten", "Süt"]
+        },
+        "2025-11-30": {
+          "main": "Kuru Fasulye",
+          "side": "Bulgur Pilavı",
+          "soup": "Ezogelin Çorbası",
+          "salad": "Gavurdağı",
+          "dessert": "Yoğurt",
+          "allergens": []
+        },
+        "2025-12-01": {
+          "main": "Izgara Köfte",
+          "side": "Patates Püresi",
+          "soup": "-",
+          "salad": "Yeşil Salata",
+          "dessert": "Sütlaç",
+          "allergens": ["Süt", "Yumurta"]
+        }
+      }
     },
     "2": {
       "name": "Şube Mutfak (Proje B)",
-      "monthly": {
-             }
+      "menu": {}
     }
   }
 }
