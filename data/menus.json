@@ -27,13 +27,23 @@
             "salad": "Yeşil Salata",
             "dessert": "Sütlaç",
             "allergens": ["Süt", "Yumurta"]
+          },
+          "2025-12-01": {
+            "main": "Izgara Köfte",
+            "side": "Patates Püresi",
+            "soup": "-",
+            "salad": "Yeşil Salata",
+            "dessert": "Sütlaç",
+            "allergens": ["Süt", "Yumurta"]
+            },
+   "2025-12-01": {
+            "main": "Izgara Köfte",
+            "side": "Patates Püresi",
+            "soup": "-",
+            "salad": "Yeşil Salata",
+            "dessert": "Sütlaç",
+            "allergens": ["Süt", "Yumurta"]
           }
-          // Diğer günler buraya eklenecek...
-        },
-        "2025-12": {
-          // Aralık 2025 menüsü buraya eklenecek...
-        }
-      }
     },
     "2": {
       "name": "Şube Mutfak (Proje B)",
